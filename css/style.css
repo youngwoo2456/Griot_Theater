@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+}
+.first-line {
+    display: flex;
+    flex-direction:row;
+    background-color: black;  
+}
+.navbar1 {
+    display:flex; 
+    padding: 10px;
+    font-size: 30px;
+    /*border: 2px solid green;*/
+    width: 25%;
+    position: relative;
+    left: 100px;
+}
+.navbar2 {
+    display:flex;
+    padding: 20px;
+    justify-content: space-around;
+    /*border: 2px solid blue;*/
+    width: 50%;
+}
+.xspace {
+    width:25%;
+    background-color:black;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.904);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+/* text size/color wouldn't register in code above for some reason^ */
+.centered {
+    font-size: 120px;
+    color: white;
+}
+
+.gutter {
+    margin: 0 300px;
+    /*border: 10px solid dodgerblue;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+#date {
+    border: 1px solid black;
+    background-color: lightgray;
+    width: 1290px;
+}
+
+
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.thumb1{
+    padding: 30px;
+    flex: 35%;
+}
+.main-middle {
+   
+    flex: 40%;
+}
+#name1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+#name2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#name3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+#name4 {
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-right{
+    flex: 15%;
+}
+.read {
+    border: 1px solid black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: auto 0 auto 0;
+    background-color: rgba(221, 202, 31, 0.822);
+}
+
+.last-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+    color: white;
+    background-color:black;
+    width: 100%;
+    height: 400px;
+}
+.last-1 {
+    padding: 75px;
+    flex: 30%;
+}
+#icons{
+    color:rgb(170, 113, 8);
+}
+.last-2 {
+    flex:20%
+}
+.last-3 {
+    flex:20%
+}
+.last-4 {
+    flex:20%
+}
+.line {
+    width: 100%;
+}
